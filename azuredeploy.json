@@ -42,7 +42,7 @@
         }
     }],
     "outputs": {
-        "starageEndpoint":{
+        "storageEndpoint":{
             "type": "object",
             "value": "[reference(parameters('storageName')).primarEndpoints]"
         }
